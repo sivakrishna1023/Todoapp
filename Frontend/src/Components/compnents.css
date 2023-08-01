@@ -1,0 +1,40 @@
+  #myDiv {
+    margin-right: 5px;
+    height: fit-content;
+    width: 41%;
+    padding: 30px;
+    margin-top: 100px;
+    /* background-color: #c2dde8; */
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  #myDiv1 {
+    margin-right: 5px;
+    width: 41%;
+    padding: 30px;
+    background-color: gray;
+    overflow-y: auto;
+    max-height: calc(100vh - 190px);
+
+  }
+#cardwidth{
+  width: 30vw;
+  padding: 33px;
+}
+  @media (max-width: 1000px) {
+
+    #myDiv,
+    #myDiv1 {
+      width: 100%;
+      margin-top: 10px;
+    }
+    #cardwidth {
+      width: 70%;
+      margin: 10px;
+    }
+    #myDiv1 {
+      overflow-y: hidden;
+      max-height: none;
+    }
+  }
